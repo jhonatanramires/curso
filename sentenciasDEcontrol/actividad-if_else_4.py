@@ -1,4 +1,4 @@
-    print('-----Bienvenido al algoritmo que determina en que etapa de la vida estas V2 :D-----')
+print('-----Bienvenido al algoritmo que determina en que etapa de la vida estas V2 :D-----')
 edad = int(input('Me dices tu edad :D: '))
 if 0 > edad > 10:
     print('o tienes entre 1 y 10 años fua ')

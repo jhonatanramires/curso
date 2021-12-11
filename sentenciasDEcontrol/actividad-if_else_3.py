@@ -1,3 +1,4 @@
+print('-----Bienvenido al algoritmo que determina la calificacion basada en una nota numerica :D-----')
 nota = int(input('Proporciona la nota del alumno: '))
 
 calificacion = None
