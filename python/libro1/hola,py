@@ -1,0 +1,6 @@
+# Este programa saluda y pregunta tu nombre 
+print('Hola mundo')
+print('Como te llamas?')
+nombre = input()
+print('Es un placer conocerte, ' + nombre)
+
