@@ -1,0 +1,52 @@
+#creamos una lista de nombres
+nombres = ['Juan','Karla','Ricardo','Maria']
+#ponemos la lista en pantalla
+print(nombres)
+#acceder a los elementos de una lista 
+print(nombres[0])
+#acceder de manera inversa
+print(nombres[-1])
+#acceder a un rango
+print(nombres[0:2])
+#acceder desde el inicio de la lista hasta el indice
+print(nombres[:3])
+#acceder desde el final de la lista hasta el indice 
+print(nombres[1:])
+
+nombres[3] = 'ivone'
+
+print(nombres[3])
+
+for nombre in nombres:
+    print(nombre)
+else:
+    print('Fin de la lista')
+
+#preguntar el largo de una lista
+print(len(nombres))
+
+#agregar un elemento a la lista
+nombres.append('Lorenzo')
+
+print(nombres)
+
+#insertar un elemento en un indice especifico
+nombres.insert(2, 'TuVieja')
+
+print(nombres)
+
+#remover valores
+nombres.remove('TuVieja')
+
+nombres.pop()
+
+print(nombres)
+
+#eliminar un indice 
+del nombres [0]
+
+nombres.clear
+
+print(nombres)
+
+del nombres 
